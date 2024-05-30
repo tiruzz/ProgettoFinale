@@ -1,103 +1,12 @@
-<body>
+<!--<div class="sfondo">
+    <login></login>
+</div>-->
 
-  <div class="sidebar">
-        <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Logo" style="width: 130px;" />
+<div class="sfondo">
+    <router-outlet></router-outlet>
+</div>
 
-    <div class="navigation">
-      <ul>
-        <li>
-          <a href="#">
-            <span class="fa fa-home"></span>
-            <span>Home</span>
-          </a>
-        </li>
 
-        <li>
-          <a href="#">
-            <span class="fa fa-search"></span>
-            <span>Search</span>
-          </a>
-        </li>
 
-        <li>
-          <a href="#">
-            <span class="fa fas fa-book"></span>
-            <span>Your Library</span>
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="navigation">
-      <ul>
-        <li>
-          <a href="#">
-            <span class="fa fas fa-plus-square"></span>
-            <span>Create Playlist</span>
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <span class="fa fas fa-heart"></span>
-            <span>Liked Songs</span>
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="policies">
-      <ul>
-        <li>
-          <a href="#">Cookies</a>
-        </li>
-        <li>
-          <a href="#">Privacy</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="main-container">
-    <div class="topbar">
-      <div class="navbar">
-        <ul>
-          <li>
-            <a href="#">Premium</a>
-          </li>
-          <li>
-            <a href="#">Download</a>
-          </li>
-          <li>
-            <a href="#">Sign Up</a>
-          </li>
-        </ul>
-        <button type="button">Log In</button>
-      </div>
-    </div>
-
-    <div class="spotify-playlists">
-      <h2>Spotify Playlists</h2>
-
-      <div class="list">
-        <div class="item" *ngFor="let element of canzoni; index as i">
-          <img src="{{element.immagine}}">
-            <div class="play">
-              <span class="fa fa-play"></span>
-            </div>
-            <div style="float: left;">
-              <h4>{{element.titolo}}</h4>
-              <p>{{element.artista}}</p>
-            </div>
-            <div style="float: right;">
-                <button mat-icon-button color="warn" aria-label="Example icon button with a heart icon">
-                  <mat-icon>favorite</mat-icon>
-                </button>
-            </div>
-        </div>
-
-      </div>
-    </div>
-
-  </div>
-</body>
+<!--<navbar></navbar>
+<footer></footer>-->

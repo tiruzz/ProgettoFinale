@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
+import { PlaylistpersonaliComponent } from '../playlistpersonali/playlistpersonali.component';
+import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-navbar',
+  selector: 'navbar',
   standalone: true,
-  imports: [],
+  imports: [PlaylistpersonaliComponent, RouterLink],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
 })

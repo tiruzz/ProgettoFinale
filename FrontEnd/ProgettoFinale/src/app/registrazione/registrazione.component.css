@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'SpotifyFont';
+    src: url('../../assets/Gotham-Black.otf') format('truetype');
+}
+*{
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #121212;
+    img{
+        width: 225px;
+        padding: 35px;
+        margin-left: 20px;
+    }
+}
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    height: 100vh;
+    background: linear-gradient(rgb(47, 46, 46), black);
+  }
+  
+  .login-box {
+    background-color: #121212;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 900px;
+    height: 778px;
+    h1 {
+        margin-bottom: 24px;
+        font-family: SpotifyFont;
+    }
+  }
+  
+  .form-group {
+    margin-bottom: 16px;
+    text-align: left;
+    
+    label {
+        display: block;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+  }
+  
+  .form-group input[type="email"],
+  .form-group input,
+  .form-group input[type="password"] {
+    width: 450px;
+    height: 50px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 1px solid #333;
+    background-color: #121212;
+    color: white;
+  }
+  
+  .form-group input[type="email"]::placeholder,
+  .form-group input[type="password"]::placeholder {
+    color: #999;
+  }
+ 
+  .BtnLogin {
+    width: 400px;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #1db954;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 16px;
+    font-weight: bold;
+  }
+  
+  .accedi {
+    margin-top: 16px;
+    color: #b3b3b3;
+    font-weight: bold;
+    font-family: SpotifyFont;
+    font-size: 22px;
+    a {
+        color: #1db954;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+  }
+  
+  .titolo{
+    padding: 60px;
+  }
+
+  .linea{
+    background-color: grey;
+    height: 0.1px;
+    margin-bottom: 50px;
+  }
+  .linea-sotto{
+    background-color: grey;
+    height: 0.1px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
